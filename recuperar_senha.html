@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Recuperar Senha - Autentique</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-6 rounded shadow-md w-80">
+      <h2 class="text-2xl font-bold mb-4 text-center">Recuperar Senha</h2>
+      <form id="recuperarForm" class="space-y-4">
+        <input type="email" id="email" placeholder="Email" class="w-full border p-2 rounded">
+        <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded">Enviar Instruções</button>
+      </form>
+      <div id="msg" class="mt-4 text-center"></div>
+      <a href="login.html" class="block mt-4 text-center text-blue-500">Voltar para Login</a>
+    </div>
+    <script src="recuperar.js"></script>
+  </body>
+</html>
